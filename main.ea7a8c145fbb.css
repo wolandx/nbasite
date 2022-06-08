@@ -7325,4 +7325,27 @@ header .menu-button span {
      transition: none;
    }
  }
+
+ img {
+  width: none;
+  height: none;
+  border: none;
+}
+
+.fill {
+object-fit: fill;
+}
+
+.contain {
+object-fit: contain;
+max-width: 100%;
+}
+
+.cover {
+object-fit: cover;
+}
+
+.scale-down {
+object-fit: scale-down;
+}
  
